@@ -1,7 +1,7 @@
 'use strict';
 
 const request = require('request');
-const TMDB = require('../config').TMDB;
+const TMDB = require('../../config').TMDB;
 const createResponse = require('./createResponse');
 const MAX_CONFIDENCE = 0.8;
 
