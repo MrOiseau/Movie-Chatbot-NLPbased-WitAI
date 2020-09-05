@@ -83,7 +83,7 @@ module.exports = nlpData => {
             // Create a response and resolve back to the user
             if(intent ==='greetingUser'){
                 resolve({
-                    txt: `Zdravo! Ja sam četbot koji ti može dati informacije vezane za željeni film poput:\n-Kada je objavljen Inception?\n-Ko je rezirao film Inception?\n-Kratki opis za film Inception`,
+                    txt: `Zdravo! Ja sam četbot koji ti može dati informacije vezane za željeni film poput:\n-Kada je objavljen Inception?\n-Ko je režirao film Inception?\n-Kratki opis za film Inception`,
                     img: null
                 });
             } else if(intent ==='thankYou'){
