@@ -1,0 +1,24 @@
+{
+  "name": "filmmate",
+  "version": "1.0.0",
+  "description": "Chatbot that can tell you all about movies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikola Bijanic",
+  "license": "ISC",
+  "engines": {
+    "node": "12.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cyrillic-to-latin": "^2.0.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
