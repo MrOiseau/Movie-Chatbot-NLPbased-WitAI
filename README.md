@@ -11,8 +11,8 @@
  Original conversation (Serbian) & Conversation translated on English:
 
  ![one](./Screenshots/one.jpg)
- ![two](./Screenshots/two.jpg)
- ----------------------------------------------------
+ ![two](./Screenshots/two.jpg) 
+ 
 
  ## Featured technologies, 3rd party solutions & used platforms
 * [Node.js](https://nodejs.org/): An asynchronous event driven JavaScript runtime, designed to build scalable applications.
