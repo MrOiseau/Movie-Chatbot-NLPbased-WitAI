@@ -6,11 +6,9 @@ let router = express.Router();
 
 let initWebRoutes = (app)=> {
 
-    router.get('/', homepageController.getHomepage
+    router.get('/', homepageController.getHomepage);
                   /*(req, res) => {
-        return res.send('Zdraaavo svete! :)');
-        ////f.registerHook(req, res); }     */
-    );
+        return res.send('Zdraaavo svete! :)'); */
 
     ////router.get("/webhook", chatBotController.getWebhook);
     ////router.post("/webhook", chatBotController.postWebhook);

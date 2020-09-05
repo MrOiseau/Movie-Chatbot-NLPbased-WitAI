@@ -33,7 +33,7 @@ app.get('/webhook', (req, res) => {
 });
 
 // parse application/json
-app.post('/webhook', bodyParser.json({		//app.use(bodyParser.json({
+app.use(bodyParser.json({
 	verify: f.verifyRequestSignature.call(f)
 }));
 
